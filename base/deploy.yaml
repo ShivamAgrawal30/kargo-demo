@@ -13,8 +13,8 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - name: nginx 
-        image: public.ecr.aws/nginx/nginx:placeholder
+      - name: redis 
+        image: public.ecr.aws/docker/library/redis:placeholder
         volumeMounts:
         - name: content
           mountPath: /usr/share/nginx/html
